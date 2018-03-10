@@ -1,0 +1,12 @@
+<div class="header-container">
+
+  <h1 class="slogan">Movies for real Ironhackers</h1>
+
+</div>
+
+<ul class="text-center movies-container" class="movies-container">
+  <li  *ngFor="let movie of movies, let i = index"><h2>ROOM {{i + 1}}</h2><hr>
+  <p>  {{movie.title}} ({{movie.year}})</p> <hr>
+    <img src="{{movie.poster}}" (click)="onClickPoster(movie.id)">
+  </li>
+</ul>

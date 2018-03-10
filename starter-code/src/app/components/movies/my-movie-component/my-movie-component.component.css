@@ -1,0 +1,30 @@
+.movieId-container{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+img{
+  width: 300px;
+  height: 450px
+}
+
+.movieId-image{
+
+}
+
+.movieId-info{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  line-height: 20px;
+  margin-left: 5%;
+}
+
+h3{
+  margin: 0, 2px, 0, 0;
+}
+
+h4{
+  margin: 0
+}

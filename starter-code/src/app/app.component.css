@@ -1,0 +1,12 @@
+.logo{
+  display: flex;
+  justify-content: center;
+  background-image: url('./../assets/img/Popcorn.jpg');
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}

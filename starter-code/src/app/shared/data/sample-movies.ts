@@ -1,4 +1,6 @@
-[
+import { Movie } from './../models/movies.model';
+
+export const movies: Array<Movie> = [
   {
     id: 1,
     title: "The Shawshank Redemption",
@@ -72,7 +74,6 @@
       "Gary Oldman"
     ]
   }, {
-  {
     id: 5,
     title: "Schindler's List",
     poster: "https://i.imgur.com/IWZJOmu.jpg",
